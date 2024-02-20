@@ -23,7 +23,13 @@ namespace SecuredSpace.ClientControl.Model
         {
             //FindObjectsOfType<IService>();
             GenerateServiceStorage();
-            var services = ECSAssemblyExtensions.GetAllSubclassOf(typeof(IService)).Where(x => !x.IsAbstract).Select(x => IService.InitalizeSingleton(x, ServiceStorage)).Cast<IService>().ToList();
+            var services = ECSAssemblyExtensions
+                .GetAllSubclassOf(typeof(IService))
+                .Where(x => !x.IsAbstract)
+                .Select(x => IService.InitalizeSingleton(x, ServiceStorage))
+                .Cast<IService>()
+                .ToList();
+            
             services.ForEach(x => x.PostInitializeProcess());
         }
         #endregion

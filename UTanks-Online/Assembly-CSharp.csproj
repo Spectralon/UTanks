@@ -1,0 +1,1990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{346c7a78-18f3-0834-70b4-bfda60cf244a}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_23;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;AggressiveLog</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\ArrayNodeDeserializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\WeaponSkinBattleItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\Price\GoodsXPriceComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\HashCode.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ValueDeserializers\AliasValueDeserializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\ECSEvents\TransferEntitiesEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Communications\UserLoggedInEvent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Common\Lighting\Scripts\ReflectProbeLight.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\BattleEnterSettingsElement.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Scripts\UnityExtensions.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\MappingStart.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\Shooting\StartAimingEvent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Core\Polygon.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Battle\Scripts\BattleUIHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\ECSEvents\UpdateEntitiesEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\SimpleJSON\SimpleJSON.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankJumpComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\EntityManagers\IECSObjectManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\IMessageDispatcher.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\ParentGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\API\ProxyBehaviour.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Hammer\HammerPelletConeComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\IEntity.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\WeaponPaintBattleItemComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\TankChassisManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Entrance\SessionSecurityPublicComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserPrivilegeGroupComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Scanner.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\GarageType.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\SyntaxErrorException.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Templates\Lobby\SelectableMapTemplate.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\NumericUpDown\NumericUpDownOperator.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Locator\NullAudioManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\Battles\BattleInfoUpdaterSystem.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\NetworkUpdatingSystems\BattleUpdaterSystem.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\FakeList.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\BlockMappingStart.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\ValueSelectorButton.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeTypeResolvers\YamlConvertibleTypeResolver.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\PresetEquipmentComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Freeze\FreezeDamageComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\Value.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Team\TeamGroupComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IObjectFactory.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankInBattleComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\TankJumpComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\GoldBonusRegionComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\AdditionalComponent\ICreatureComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Time\BattleStartTimeComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\UserGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\AtomicType\Vector3.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Core\Protocol\ProtocolIgnoreAttribute.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\Tank\ExperienceToLevelUpItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponents\BattleDropStorageComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Demo.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\Const.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\Shooting\StartShootingEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\LazyComponentRegistrationListExtensions.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnowWMAPI.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\GetUserViaUsername.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Vulcan\VulcanIdleComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\Inputs\TMP_InputPreprocess.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Common\Lighting\Scripts\PointLight.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\AtomicType\Vector2.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Notification\ReleaseGiftsNotificationComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Extensions\EnumerableExtension.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\Shooting\CreatureActuationEvent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\GarageListItemGradeVisual.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\NullNodeDeserializer.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\ParserState.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\WeaponComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\ECS\Node.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Hull\HullComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\User\UserInBattleAsSpectatorComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\ECS\SingleNode.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\AnchorScripts\AudioAnchor.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Serializer.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Service\DefaultAudioManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TemperatureComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CPacket.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\TankActiveStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankVisibleStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawStartChargingEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\ScoreQuestComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\MoveCommandEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\FlowSequenceEnd.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Team\TeamComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Vulcan\VulcanDamageComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\Common\IAnchor.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\EmitterState.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\NetReader.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\LightShafts\LightShafts.Resources.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\VisibleItemComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\CollectionNodeDeserializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\NetworkUpdatingSystems\BattleUserUpdaterSystem.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ClientComponents\Battle\RebuildAfterDeathComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Core\Vertex.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\BattleRewards\ChestBattleRewardComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\SplashWeaponComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphVisitors\EmittingObjectGraphVisitor.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Chat\Scripts\GeneralChatUIHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\SupplyBonusRegionComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\SliderValueIndicator.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Extensions\StreamExtensions.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\Bonus\BonusType.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Common\Lighting\Scripts\GlobalDirectionalLight.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserCrystalsComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\GroupDataAccessPolicy.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\BattleLeaveCounterComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Utilities\IPostDeserializationCallback.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IEventEmitter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Gauss\GaussAimingComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Core\Protocol\DataDecoder.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Messaging\MessageBox.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerSettings\GetUserSettingsRequest.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Additionals\EffectsAggregatorComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\Entity.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeTypeResolvers\TagNodeTypeResolver.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\DestructionEvent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Settings\Scripts\SettingsUIHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\MountUpgradeLevelRestrictionComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Messaging\MessageBoxProvider.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Logger\IAudioLogger.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\Projectiles\Bullet\Scripts\Bullet.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Core\Protocol\DataEncoder.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\ConfirmedUserEmailComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\ObjectPool\EasyObjectPool.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphVisitors\DefaultExclusiveObjectGraphVisitor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\FavoriteEquipmentStatisticsComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Creatures\Mine\Scripts\MineCreature.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Twins\TwinsDamageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Movement\TankMovableComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\QuestReadyComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnowCollisionDetector.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CPacketBufferManager.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Base\Scripts\IManagableAnchor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Templates\User\UserTemplate.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Entrance\ClientSessionComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Chat\Scripts\ChatMessageElement.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\LayoutUpdater\LayoutUpdaterService.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Notification\UserRankRewardNotificationInfoComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectFactories\DefaultObjectFactory.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\Common\ILight.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Time\BattleTimeIndicatorComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\UserDailyBonusZoneComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\ModuleGroupComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IAliasProvider.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeTypeResolvers\TypeNameInTagNodeTypeResolver.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\EnterToBattleEvent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Services\IService.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Railgun\RailgunComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Battle\Scripts\KillLogRowElement.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NamingConventions\UnderscoredNamingConvention.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Vulcan\VulcanSlowDownComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\HashCache.cs" />
+     <Compile Include="Assets\DebugData\LoadMainScene.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\UICanvasGroup.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Settings\AudioSourceSetting.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Garage\WeaponChangeEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Freeze\FreezeComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Settings\ShowIfAttribute.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\StreamWeaponWorkingComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeInspectors\ReadablePropertiesTypeInspector.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Core\Model.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\LobbyBattleRowElement.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\SpecialOfferGroupComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Storage\ResourceDB\deprecated\ItemResourcesDB.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Flag\FlagPositionComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftAimingWorkingStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\PremiumAccountBoostComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\AnchorScripts\LocalisationAnchor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundFundComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\ClosedBetaQuestAchievementComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\LightShafts\LightShafts.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Common\TanksInteraction\Scripts\HullGhostChecker.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserKarmaComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\RecursionLevel.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\Tank\TankState.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Garage\DiscountListComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\CharacterAnalyzer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Hammer\MagazineReloadStateComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\AIM\Scripts\CloseDistanceAIM.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnowColliderExtraInfo.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\FPSCounter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\UserItemCounterComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleMode\TDMComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\View\Camera\Spectator\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Version.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankSpawnStateComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeInspectors\ReadableAndWritablePropertiesTypeInspector.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Login\Script\LoginRegistrationUIHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\LeaveFromBattleEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\BufferManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\ECSEvents\CreateEntitiesEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Payment\PaymentIntentComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\FractionGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\SpatialGeometryComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\WeaponCooldownComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\Component.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\Battles\BattlesSystem.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnow.ShaderParams.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\INamingConvention.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\EntityManagers\IGroupManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\ComponentManagers.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CServerUserManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\RegistrationDateComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Scripts\Const.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\MaximumRecursionLevelReachedException.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundRestartingStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\DailyBonusCycleComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Lobby\SelectableMapComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleMode\DOMComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\DefaultsDB\InitializeDefaultEntities.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeTypeResolvers\RejectUnknownTagsNodeTypeResolver.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\UI\Players\Scripts\TankUI.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerSettings\SetPremiumExpiration.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\SimpleKey.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Incarnation\TankClientIncarnationComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawStartShootingEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\Comment.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\TimerComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\_deprecated\TimerElement.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleMode\CTFComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftStateConfigComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\SplashImpactComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ComponentsGroup\Garage\BoosterGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerSettings\SetAvatar.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\Scalar.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Core\IAudioManager.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\WeightComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Entrance\InviteComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Security\LoginSuccessEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\NotificationGroupComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\NodeEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\DiscreteWeaponEnergyComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\Battles\DropSystem.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeInspectors\NamingConventionTypeInspector.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Storage\ResourceDB\AudioClipCard.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\20\Scripts\HullVisual20Controller.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\SSSAO\SimpleScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Core\VertexAttributes.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\Attributes.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\BlockSequenceStart.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\TankGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CUserToken.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Base\SGT.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\LookAheadBuffer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\WeaponStreamShootingComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IPropertyDescriptor.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnow.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\User\UserEquipmentComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\ECS\EntityId.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\CountableItemsPackComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\Garage\ChangeEquipmentSystem.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\EntityManagers\IManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Railgun\RailgunDamageComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IRegistrationLocationSelectionSyntax.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\InsertionQueue.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Core\AudioError.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\Bonus\BonusState.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Shell\ShellBattleItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\ECSObjectsEnum.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\RegisterUserRequest.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ISerializer.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Settings\ConditionOperator.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Utilities\ObjectAnchorCollection.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\EmailAvailableRequest.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\GameTankSettingsComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\CharacteristicTransformers\NitroTransformerComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserReputationComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Common\Cheats\Scripts\TankJumper.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\EventEmitters\ChainedEventEmitter.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\DocumentStart.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\LayerMasksUtils.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\CameraControls.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\NetworkServerReplicator\DataReplicationSystem.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Logger\LoggingType.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\EffectTableElement.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Services\Other\UIService.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\DocumentLoadingState.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserGarageDBComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\YamlMember.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\DampingComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeInspectors\CompositeTypeInspector.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\MappingStyle.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Notification\ServerNotificationMessageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\ECSEvents\CreatureUpdateEvent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\LightShafts\LightShafts.Utils.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\AtomicType\WorldPoint.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IValuePromise.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundActiveStateComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\EntityManagers\IEntityManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Hull\BaseHullComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Team\TeamScoreComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\DamageWeakeningByDistanceComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawMovementEvent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Helper\AudioSourceExtension.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\Scalar.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Graffiti\GraffitiBattleItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\News\NewsItemComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\BotPhysics\Scripts\TankMovement.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Security\CaptchaRequiredEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserSocketComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\Chat\ChatSystem.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\ViewControl\CheckMouseOverUI.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlMappingNode.cs" />
+     <Compile Include="Assets\YamlDotNet\Helpers\Portability.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\SelfDestructionRequestEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftIdleStateComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Storage\DBPrefab.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\AreaEffects\Jet\Scripts\JetManager.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\Projectiles\StandartProjectile\Scripts\PhysicalProjectile.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\StreamHitConfigComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\ECS\Component.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Chassis\SpeedComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\View\Camera\Spectator\Scripts\Spectator.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankPaintBattleItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\ColormapComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerSettings\UserSettingsData.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\20\Scripts\TurretVisual20Controller.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Core\AudioSourceWrapper.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\SpecialOffer\SpecialOfferVisibleComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Templates\Shop\DonateShopTemplate.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\RigidbodyComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Timer\UnityTimer.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Helper\SettingsHelper.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\StreamWeaponEnergyComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeInspectors\ReadableFieldsTypeInspector.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Chat\ChatParticipantsComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Old\Scripts\TurretVisualOldController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\MapXMLTree.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\YamlFormatter.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\AnchorNotFoundException.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\RemoveBattleEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\ObjectNodeDeserializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Garage\UpdateSupplyCountEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Extensions\ClassExtensions.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\SpeedComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Core\IFluentAudioManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserCountryComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Twins\Scripts\TwinsManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\INetSerializable.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\SpecialOffer\PackIdComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\BattleLoadedEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeInspectors\CachedTypeInspector.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\EventInfo.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Drop\Box\Scripts\BattleDropManager.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Isis\Scripts\IsisManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\ObjectPool.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Hammer\HammerComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Hammer\MagazineWeaponComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\ScalarNodeDeserializer.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\FlowEntry.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\Common\IController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\RoundDisbalancedComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\UnityTime.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Settings\ShowIfAttributeDrawer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\ExpireDateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\IPeer.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\PropertyDescriptor.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Services\Other\GameSettings.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ClientComponents\Battle\SpectatorSwitchCooldownComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\Client\Client.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Smoky\SmokyComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\LayoutUpdater\ContentLayoutRefreshMarker.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\User\UserInfoUpdateSystem.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\GoalEvents\CTF\FlagDeliveredEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NamingConventions\NullNamingConvention.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphVisitors\PreProcessingPhaseObjectGraphVisitorSkeleton.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\ComponentGroup.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IObjectGraphTraversalStrategy.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\Message.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Templates\Battle\BattleUserTemplate.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserScoreComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Core\Plane.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\PlayerPanel\Scripts\PlayerPanelUIHandler.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\EntityManagers\IManagable.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftDamageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ComponentsGroup\Garage\HullGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Graffiti\GraffitiDecalComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\DeserializerBuilder.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\SupplyUsedEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponents\BattlePlayersComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\TankConstructionComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\WeaponRotationComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\RegisterUserFailed.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\DataAccumulator.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Common\Lighting\Scripts\LineLight.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\ScalarStyle.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Helper\AudioSourceWrapperExtension.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\BattleRewards\PersonalBattleRewardComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Converters\SystemTypeConverter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\WinQuestComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\AbstractRestrictionComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\TimeoutEntitySelfRemoveComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\DataLoader\ConstantService.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\DBComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Communications\StartCommunication.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponents\BattleTeamsComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\View\Camera\BattleCamera\Scripts\CameraController.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Drop\Box\Scripts\DropManager.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\TagDirectiveCollection.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\SemanticErrorException.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\YamlAttributeOverrides.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftEnergyComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\ECSEvents\ReceiveEntitiesEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Security\LoginFailedEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\NetBuffer.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\Controllers\ITurretVisualController.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Core\ChildType.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\TypeConverterNodeDeserializer.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IYamlSerializable.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Chat\ChatMessageCallbackEvent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Core\Constants.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Battle\Scripts\TeamGoalElement.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CMessageResolver.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\ITurret.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Notification\LoginRewardsNotificationComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\BattleCreatorUIHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\MarketItemGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Security\LoginEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\GoalEvents\CTF\FlagReturnEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\QuestRarityComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\Battles\BattleTankUpdaterSystem.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankSemiActiveStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Ricochet\RicochetComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Common\Lighting\Scripts\ParticlesLight.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\PhysicsUtil.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\InBattleChangeEquipmentComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\StreamStart.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\RadioSelector\RadioSelector.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlAliasNode.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\StreamFragment.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\QuestsEnabledComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlNodeType.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Core\VertexUtility.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Extensions\ZipExt.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundTimerComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\TrackComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\SocketAsyncEventArgsPool.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\RadioSelector\RadioSelectorHandler.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\ParserExtensions.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\Controllers\IHullVisualController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Flag\FlagGroundedStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Health\HealthConfigComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankStateTimeOutComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\Server\User.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankActiveStateComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Managers\GroupManagers\BattleManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawHitEvent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\TX\Scripts\HullVisualTXController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Flamethrower\FlamethrowerComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\EnumerableNodeDeserializer.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\RangeSlider\RangeSlider.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Emitter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ComponentsGroup\ECSComponentsGroup\ServerComponentGroup.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\ImpactComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ClientNetworkService.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\Projectiles\Bullet\Scripts\ImpactTesting.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Chat\TeamBattleChatComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectFactories\LambdaObjectFactory.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\MountedItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Flag\FlagComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Helpers\GenericDictionaryToNonGenericAdapter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Twins\TwinsComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\BattleTypes.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Extensions\ECSAssemblyExtensions.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponents\BattleGDAPComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Location\RotationComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\BattleSettingsHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Additionals\CharacteristicTransformerComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\CameraVisibleTriggerComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\GarageDeviceListElement.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\GoalEvents\CP\ExitFromPointZoneEvent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Core\CSG.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\CharacteristicHeaderElement.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\IScanner.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Settings\AudioSourceSettingEditor.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Services\Other\RankService.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\UserInitialDataEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\ParsingEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\IdleCounterComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Templates\Shop\GarageShopTemplate.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Vulcan\VulcanSpeedUpComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\MergingParser.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\Tutorial\TutorialCompleteIdsComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Battle\Scripts\BattleEventLogElement.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\StringLookAheadBuffer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleScoreComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\LobbyBattleRowPlayerCounter.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\EmitterSettings.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\AnchorScripts\PostProcessAnchor.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\Text\ValueIndicator.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Flamethrower\Scripts\FlamethrowerManager.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Loader\Script\LoadingWindowUIHandler.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\FlowMappingStart.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Entrance\LobbyComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\ScoreLimitComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Incarnation\TankIncarnationKillStatisticsComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Services\ConstantServices\ResourcesService.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\Tank\UpgradeMaxLevelItemComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\AIM\Scripts\RaycastAIM.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Logger\LoggingLevel.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserOnlineComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlSequenceNode.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\UserDailyBonusReceivedRewardsComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\SetHashedPassword.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\ChassisSystem.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Core\Logging\ULogger.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Storage\ResourceDB\ItemCard.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Settings\ActionOnConditionFail.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\BattleEndEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\SerializerBuilder.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawStartAimingEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Shop\ShopBuyItemEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ComponentsGroup\Garage\TurretModuleGroupComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\IProjectile.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\Battles\BattleTankPositionUpdaterSystem.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\EmitterState.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlNodeIdentityEqualityComparer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\WeaponBulletShotComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\TagDirective.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\DataAccumulatorManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Templates\Battle\BattleTemplate.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Core\Protocol\OptionalMappedAttribute.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\Shooting\ShotEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\SequenceStart.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\SelfDestructionComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawDropTakingEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserPublisherComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Garage\GarageShopComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\Controllers\ITankVisualController.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Locator\AudioServiceLocator.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Common\Cheats\Scripts\TankUpper.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserRankComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AssetsGrass\GrassTesselation.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Hammer\MagazineStorageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CNetworkService.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\ViewControl\Colorizer.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Battle\Scripts\BattleSupplyElement.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\MathUtils.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Thunder\Scripts\ThunderManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\NetWriter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Squad\SquadLeaderComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Notification\NewItemNotificationComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\EntityManagers\IComponentManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\KillsEquipmentStatisticsComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\BlockEntry.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnowIgnoreCoverage.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\EventEmitters\TypeAssigningEventEmitter.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\SimpleValueSmoother.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\News\NewsItemSaleLabelComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Thunder\ThunderDamageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ClientComponents\SystemComponent\EntityManagersComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\TankCollidersComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\IParser.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\BlackListComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\BonusDespawningComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\SystemManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\ComponentManager.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Core\ProgressResponse.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Notification\NewCardItemNotificationComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponents\BattleCreatureStorageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\System.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\Inputs\InputFieldValueTreshold.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Default\Scripts\HullVisualDefaultController.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\SerializationOptions.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlNode.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectDescriptor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\Server\Server.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\CharacteristicTableChainElementColumn.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeResolvers\DynamicTypeResolver.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\INodeDeserializer.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\Tag.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ComponentsGroup\Garage\ColormapGroupComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\StreamEnd.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\FlowMappingEnd.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\DroneWeaponComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Energy\WeaponEnergyComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Entrance\WebIdComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IValueDeserializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\DirectiveUpdate\RawEnergyComponentDirectUpdateEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CLogicMessageEntry.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\Tank\UpgradeLevelItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankGroupComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ValueDeserializers\NodeValueDeserializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\BattleRewards\LevelUpUnlockPersonalRewardComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\VersionDirective.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleTankCollisionsComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Railgun\Scripts\RailgunManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Templates\Garage\EquipmentTemplate.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Communications\ConfigCheckEvents\CheckConfigVersion.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\AnchorScripts\LightAnchor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\BonusEvents\BonusTakingEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphTraversalStrategyFactory.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\EffectiveSpeedComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Security\RSAPublicKey.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Scripts\DontDestroyObject.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Service\AudioChainer.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\AnchorAlias.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\SequenceStyle.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserUidComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Common\BillboardObject\Scripts\CameraBillboard.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IObjectGraphVisitor.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Common\Animation\Scripts\AnimationScript.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Logger\LoggedAudioManager.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CSG\Core\Node.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlScalarNode.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Services\GameFlowServices\EntityGroupManagersStorageService.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\GamePauseEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleSelectComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CustomLightRenderer\CustomLightRenderer.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\AnchorScripts\QualityAnchor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Garage\GarageBuyItemEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Thunder\ThunderComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\BonusComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlStream.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Creatures\MineCreatureComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CPeer.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeResolvers\StaticTypeResolver.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\ForwardAnchorNotSupportedException.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\HD\Scripts\HullVisualHDController.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Battle\Scripts\StatsCommandElement.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnowVolume.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundWarmingUpStateComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\YamlIgnoreAttribute.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\CharacteristicTransformers\RepairTransformerComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundUsersStatisticsStorageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Smoky\SmokyDamageComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\LazyComponentRegistrationList.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Effects\DamageEffect.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\View\Camera\BattleCamera\Scripts\deprecated\SimpleCameraController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CHeartbeatSender.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Notification\UIDChangedNotificationComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\TX\Scripts\TurretVisualTXController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CListener.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\Price\GoodsPriceComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\IYamlVisitor.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Utilities\ReflectionUtility.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\StreamStart.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\YamlSerializableNodeDeserializer.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Mark.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\CustomLightRenderer\CustomLight.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\SquadGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\EntitySerialization.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\Garage\GarageUpdateSystem.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\Buttons\MultiImageButton.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\BonusRegionComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\GarageItemCategorySwitcher.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ClientComponents\Battle\WeaponTechCooldownComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Map\MapComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\SpecialOffer\SpecialOfferDurationComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\INodeTypeResolver.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\DurationUserItemComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\EnterToBattleButton.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\DiscreteWeaponComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\DictionaryNodeDeserializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\AtomicType\Quaternion.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankPartComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\TurretComponents\Scripts\TurretRotaion.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Additionals\ResistanceAggregatorComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\Common\IAudio.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Utilities\TypeConverter.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Old\Scripts\HullVisualOldController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\ECSComponents\TimerSelfDestructionComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\TabElement\SimplyTabButton.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Smoky\Scripts\SmokyManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Ricochet\RicochetDamageComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlVisitor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Parser.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Communications\RestoreConnection.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\YamlAttributeOverridesInspector.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Core\Protocol\MovementCodec.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\PauseComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\GameplayChestScoreComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\CharacteristicTransformers\DamageTransformerComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Layers.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawEndShootingEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\BonusEvents\BonusTakenEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Effects\SelfHealingEffect.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\EmissionPhaseObjectGraphVisitorArgs.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\User\NewUserAuthoriseSystem.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\EventEmitters\JsonEventEmitter.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\SSSAO\MinMaxRangeAttribute.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\SetUsername.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\ILookAheadBuffer.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphVisitors\ChainedObjectGraphVisitor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\SimpleJSON\JSONFile.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Time\RoundStopTimeComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeDeserializers\YamlConvertibleNodeDeserializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\StreamWeaponIdleComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CConnector.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\DetailItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\QuestConditionComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\DirectiveUpdate\RawHealthComponentDirectUpdateEvent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\LobbyInBattleCommandPlayerRow.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\ECSSystems\TransferEntitiesSystem.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\IParsingEventVisitor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\BonusRegionGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\GoalEvents\CP\EnterToPointZoneEvent.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\TabElement\TabElement.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\BattleRewardGroupComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnowLerp.cs" />
+     <Compile Include="Assets\YamlDotNet\Helpers\GenericCollectionToNonGenericAdapter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\SetUserRememberMeCredentials.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Chat\ChatComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Helpers\ExpressionExtensions.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\MapGroupComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\BlockEnd.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphVisitors\CustomSerializationObjectGraphVisitor.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Appearance\Colormap\Scripts\ColormapScript.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\IEmitter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerSettings\SetSubscribed.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Chat\GeneralBattleChatComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphTraversalStrategies\FullObjectGraphTraversalStrategy.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\SetEmailVerified.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\YamlAttributesTypeInspector.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\SerializationCache.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Provider\AudioManagerSettings.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\CharacteristicTableChainElement.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TagMappings.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\GoalEvents\CTF\FlagTakenEvent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Default\Scripts\TurretVisualDefaultController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\GameData\GameEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\CrystalsPackComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\Key.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Isis\IsisDamageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\GroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\Event.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Storage\ResourceDB\ResourceManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\User\UserCountComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Railgun\RailgunChargingWeaponComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftAimingWorkFinishStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\Weapon\HitTarget.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\AnchorScripts\SkyboxAnchor.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\EventType.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\TurretComponents\Scripts\MuzzlePoint.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlVisitorBase.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\AnalogMoveCommandServerEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\DocumentStart.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawShotEvent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\GarageListItemElement.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\SpeedConfigComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Hammer\HammerDamageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\StreamWeaponComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\KillEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\KickbackComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\DefaultSkinItemComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\YamlException.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UsernameComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Resists\EffectsResistComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\BuilderSkeleton.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\DocumentEnd.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\AvailableResult.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Utilities\StringExtensions.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\EntityTemplate.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\BonusDropTimeComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeTypeResolvers\DefaultContainersNodeTypeResolver.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Health\HealthComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\View\PostProcess\SSAO\Scripts\SSAOEffect.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\ECSEvents\UpdateBattleCreaturesEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Notification\NotificationComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\EventEmitters\WriterEventEmitter.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\AnchorAlias.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\Tank\ExperienceItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Team\TeamBattleComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Chat\PersonalChatOwnerComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Storage\PrefabID.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Garage\DonateShopComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundUserStatisticsComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\UserDailyBonusLastReceivingDateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Hull\HullSkinBattleItemComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\Shooting\ShotHPResultEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankNewStateComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IYamlConvertible.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserStatisticsComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\StreamHitComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IValueSerializer.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleSimpleInfoComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankCooldownStorageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftAimingWorkActivationStateComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Model\Game\ICreature.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\ManagerScope.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NamingConventions\CamelCaseNamingConvention.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Properties\CustomAssemblyInfo.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Flag\FlagHomeStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Chassis\SpeedConfigComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Movement.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Services\Other\TweenerService.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\User\UserReadyToBattleComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\MappingEnd.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\NetworkUpdatingSystems\UserUpdaterSystem.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\QuestExpireDateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponents\BattleConfigurationComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\ShootableComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\ChassisConfigComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\LayoutUpdater\UpdateUIObject.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\UsernameAvailableRequest.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawCreatureActuationEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Chassis\DampingComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Managers\EntityManagers\MapManager.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\SequenceEnd.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Resists\DamageResistComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\QuestRewardComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\HD\Scripts\TurretVisualHDController.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Gauss\GaussDamageComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IYamlTypeConverter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Chat\GeneralChatComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Vulcan\VulcanWeaponComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\AnchorScripts\PropAnchor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\IECSObject.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Deserializer.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\GarageItemHandler.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Converters\GuidConverter.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserMoneyComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Offer\SpecialOfferRemainingTimeComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IObjectDescriptor.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\IDeserializer.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Logger\ErrorToStringConvertor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Lobby\SelectableMapsType.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Extensions\Collections.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\ECSComponents\EventBufferComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\CharacteristicTransformers\ArmorTransformerComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Gauss\GaussComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Security\CaptchaRequestEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\DailyBonusFirstCycleComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserAvatarComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Templates\Battle\BonusDropTemplate.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\Weapon\StaticHit.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Cursor.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\LobbyInBattlePlayerCommandTable.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerSettings\SetCountryCode.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Incarnation\TankIncarnationComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Logger\AudioLogger.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\ChassisSmootherComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\Team\TeamColor.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphVisitors\AnchorAssigner.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\PlayerAuth\SetEmail.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Flag\FlagPedestalComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Hammer\MagazineReadyStateComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Common\TanksInteraction\Scripts\HullManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawSupplyUsingEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Systems\NetworkUpdatingSystems\DropUpdatingSystem.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\DailyBonusEndlessCycleComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserSubscribeComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NamingConventions\PascalCaseNamingConvention.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Services\InitServices.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Nothing.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\Shooting\StartChargingEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\BattleCountQuestComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\FlowSequenceStart.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Time\TimeLimitComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\FragQuestComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Utilities\SerializerState.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserLocationComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Entrance\ClientLocaleComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ITypeResolver.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftWaitingStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\API\ProxyJob.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftAimingImpactComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Track.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Location\WorldPositionComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\TankRessurectionEvent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\AnchorScripts\AnchorHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\DailyBonusCommonConfigComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\GarageTankPreviewHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\FastGameEvents\RawUpdateBattleCreaturesEvent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Common\Scripts\LogComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\CDoubleBufferingQueue.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\QuestComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\LayerMasks.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\GlobalSnow\Scripts\GlobalSnowImageEffect.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\Shooting\EndShootingEvent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Garage\Scripts\GarageUIHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\ChatBanEndTimeComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\Components\ChassisComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ITypeInspector.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Garage\InBattleChangeWeaponTimeoutComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphTraversalStrategies\RoundtripObjectGraphTraversalStrategy.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\Anchor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\BonusRegionDropStorageComponent.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\SuspensionRay.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftAimingSpeedComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\Converters\DateTimeConverter.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Tokens\Token.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundUserComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Managers\EntityManagers\TankManager.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Weapon\Common\Turret\Common\AreaEffects\Splash\Scripts\SplashProjectile.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\Comment.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\NetworkEvents\Communications\ConfigCheckEvents\CheckConfigResult.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\TypeInspectors\TypeInspectorSkeleton.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleGroupComponent.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Helper\AudioHelper.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\PresetNameComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ComponentsGroup\ECSComponentsGroup\ClientComponentGroup.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\RSAComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\EventManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\SpecialOffer\ItemsPackFromConfigComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\NetProtocol.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NodeTypeResolvers\YamlSerializableTypeResolver.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\NamingConventions\HyphenatedNamingConvention.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankDeadStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\User\UserEmailComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleOwnerComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\BattleLobby\Scripts\BattleLobbyUIHandler.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Quest\QuestProgressComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponents\BattleGameplayEntitiesComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleComponents\BattleDropRegionsComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\BattleMode\DMComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\UserDailyBonusCycleComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\Simple.Net\InternalEvents\Heartbeat.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\ObjectPool\PoolObject.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Round\RoundComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\User\UserInBattleAsTankComponent.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Constants.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Vulcan\VulcanComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\EntityComponentStorage.cs" />
+     <Compile Include="Assets\ClientView\PackageAssets\AudioManager\Service\FluentAudioManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Network\BitNet\Core\ILogicQueue.cs" />
+     <Compile Include="Assets\ClientView\GameAssets\Battle\Tank\Hull\Common\Physics\TankPhysics\Scripts\ECS\Entity.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ClientInitService.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\StreamEnd.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Entrance\RestorePasswordCodeSentComponent.cs" />
+     <Compile Include="Assets\ClientView\Scripts\Services\GameFlowServices\CameraService.cs" />
+     <Compile Include="Assets\YamlDotNet\Core\Events\DocumentEnd.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Flamethrower\FlamethrowerDamageComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\User\UserLoggedEvent.cs" />
+     <Compile Include="Assets\YamlDotNet\RepresentationModel\YamlDocument.cs" />
+     <Compile Include="Assets\YamlDotNet\Serialization\ObjectGraphVisitors\AnchorAssigningObjectGraphVisitor.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Groups\LeagueGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Chat\ChatSendMessageEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Bonus\BonusStateComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Chassis\WeightComponent.cs" />
+     <Compile Include="Assets\ClientView\UI\Prefabs_and_Scripts\Battle\Scripts\StatsUserRowElement.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ComponentsGroup\Garage\TurretGroupComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Types\Battle\BattleSimpleInfo.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Extensions\JsonExtend.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\User\UserBattleGarageDBComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\EntityManager.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\SpecialOffer\DiscountComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Isis\IsisComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Tank\TankMovementComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\DailyBonus\UserDailyBonusInitializedComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Item\XCrystalsPackComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\CreateBattleEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\BattleStartEvent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Components\Battle\Weapon\Shaft\ShaftAimingTargetPointComponent.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\Extensions\FileInfoExtensions.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\Events\Battle\TankEvents\Shooting\HitEvent.cs" />
+     <Compile Include="Assets\ClientView\UI\Common\CommonScripts\Common\SetPropertyUtility.cs" />
+     <Compile Include="Assets\ClientCore\CoreImpl\ECS\ECSCore\ECSEntityGroup.cs" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\DecalDraw.shader" />
+     <None Include="Assets\StreamingAssets\Data\Maps\2042_new_summer.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Pripyat_new_summer.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\BasicCoverage.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\RoadblockWinter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\EraseShader.shader" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Madness_new_summer.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\ExcludedTerrain\FirstPass.shader" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Silence_old_winter.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\CityBuildsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu5\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Hangars\library.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Silence_new_summer.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandRocksWinter\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\colorider\noiseSimplex.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu10Winter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Halloween\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\water\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu14\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\MapLandscape\BuildableMap\Shaders\StandartProp.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\ConcreteTiles\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\CliffsWinter\images.xml" />
+     <None Include="Assets\ClientView\PackageAssets\AssetsGrass\Grass.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Defense\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\LandHills\library.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Polygon_new_summer.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\SpeedTree\SpeedTreeBillboardAdapted.shader" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\plazmoid\noiseSimplex.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_old\CityWallsWinter\library.xml" />
+     <None Include="Assets\Resources\GameResources\maps\skybox\cybercity\res\CybercityColormap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\GrassTilesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\OuterWallsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\WaffleFenceWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu5Winter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\DepthBlur.shader" />
+     <None Include="Assets\ClientView\GameAssets\Battle\Drop\Box\Shaders\TextShader.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\ExcludedTerrain\DiffuseBaseGen.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\SlopesRises\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu1\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\SpeedTree\SnowedSpeedTreeCommon.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu4\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\FachwerkHouse2\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\Tank\Base\Shaders\StandartTankColor.shader" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Kariz\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Billboard\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\SamplePositions.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu10\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\FachwerkHouse2Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IranYonje\library.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Factory_new_summer.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\GlobalSnowForwardOptions.cginc" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\liquid\LiquidColormap.shader" />
+     <None Include="Assets\ClientView\PackageAssets\CustomLightRenderer\CustomLightShader.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BridgeParts\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu3\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\LandRocks\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\DesertHouses\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IndustrialElements\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Terrain\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Plants\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BrokenWalls\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\TutorialHangar\images.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Deferred\Shaders\GlobalSnowDeferredOptions.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu6\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Deferred\Shaders\Tree\Tree_Opaque.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu4Winter\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\Tank\Base\Shaders\StandartTransparentTankColor.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\ComBuild\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu1Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Defense\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\View\GraphicsEffects\Clouds\Shaders\CloudShader.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Cliffs\library.xml" />
+     <None Include="Assets\GameData_deprecated\Global\SomeResources\Afaik.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\GlobalSnowForReflections.shader" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Sandbox_new_summer.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\SpeedTree\SnowedSpeedTreeBillboard.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\VillageBuilds\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\SlopesRisesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\StuffsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\CliffsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu3Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\4thLibrary\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\startravelist\StarTravelist.shader" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\plazmoid\PlazmoidColormap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\BridgeParts\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BridgePartsWinter\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\microelectronic\MicroelectronicColormap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\StuffsWinter\images.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\magma\noiseSimplex.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandHillsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\GrassTilesWinter\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\View\PostProcess\SSAO\Shaders\SSAO.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\ExcludedTerrain\AddPass.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\GrassTiles\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Kahgel\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\InterpolateAlongRays.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu14\library.xml" />
+     <None Include="Assets\csc.rsp" />
+     <None Include="Assets\Resources\Battle\Landscape_old\CityBuildingsWinter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\AssetsGrass\Shaders\CustomTessellation.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\HangarT\images.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\swash\SwashColormap.shader" />
+     <None Include="Assets\smcs.rsp" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Deferred\Shaders\SnowOverlay.shader" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Future_new_summer.xml" />
+     <None Include="Assets\ClientView\PackageAssets\SSSAO\Resources\SimpleSSAO.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\ExcludedTerrain\DiffuseBase.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Bush\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\Shared.cginc" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Deferred\Shaders\Tree\TreeLibrary.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_old\VillageHouses\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\galaxy\GalaxyColormap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Roadblock\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IranZamin\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\MovingObjects\MovingObjectOpaque.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\StuffsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BrokenBottom\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandRocks\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\tvshow\TVColormap.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\SpeedTree\SnowedSpeedTreeVertex.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Tutorial_Landscape\images.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\hexagonity\HexagonityColormap.shader" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\DepthBreaks.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandTiles\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\SmallBridgeWinter\images.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\SpeedTree\SnowedSpeedTree.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Fort\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\ConcreteTilesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IranKariz\images.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Passage\images.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Noise_new_summer.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IranZamin\images.xml" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\Coord.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\CityBuildingsWinter\images.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\NY\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\CityBuildings\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\colorider\ColorWarpColormap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu8Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu2Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\SmallBridge\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NY\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\CityTowers\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu12\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu12Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Passage\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu2\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Tutorial_Landscape\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\ComBuild\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu9\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu8\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\GrassTiles\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\Tank\Base\Shaders\deprecated\TankShader.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\BrokenBottom\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandHills\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\OuterWalls\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu2\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\SlopesRises\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\ColorFilter.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Tutorial_Builds\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu14Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IndustrialBridge\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IranYonje\images.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\GlobalSnow.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\SpeedTree\SnowedSpeedTreeWind.cginc" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BrokenBottomWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\SmallBridge\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\HangarsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu8\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\FachwerkHouse1\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\GrassTilesWinter\images.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\SlopesRisesWinter\images.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Extras\WaterReflections\README.txt" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_old\CityBuildings\library.xml" />
+     <None Include="Assets\us.rsp" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BrokenRoof\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Mine\images.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Exterior\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\OuterWalls\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\SpritesWinter2\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\SnowParticleSurfaceShaderOpaque.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\IndustrialBridgeWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu9Winter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\SnowPremultiplyBlend.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BrokenWallsWinter\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\Common\ConstResources\Shaders\SimpleComparingTexturesShader.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu9\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Tutorial_Builds\images.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\SlopesRisesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\PromotionTest\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu4\library.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\MoonSilence_new_summer.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Sprites\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\Compose.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_old\TreesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IranKahgel\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu3\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Gold\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Stuffs\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\TutorialHangar\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu12\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\DesertHousesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\SmallBridgeWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Cliffs\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\DepthCopyMask.shader" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Skyscrapers_new_summer.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\holo\WaveletColormap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Trees\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\FachwerkHouse2\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\cubsat\CubsatColormap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\CliffsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\FachwerkHouse1Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\SpritesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandRise\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\FortWinter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\Nature\SnowedTreeBillboard.cginc" />
+     <None Include="Assets\gmcs.rsp" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Resources\Battle\Landscape_new\BrokenRoof\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\ConcreteTilesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Stuffs\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\Drop\Box\Shaders\TransperancyShader.shader" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Duel_new_summer.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Island_new_summer.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Promotion\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\CityBuildingsWinter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\Raymarch.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BrokenRoofWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\NY\images.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Rio_new_summer.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Deferred\Shaders\MaskWrite.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\SpeedTree\SpeedTreeNoLeaves.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\ConcreteTiles\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\SpeedTree\SnowedSpeedTreeBillboardCommon.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Mine\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\ConcreteTilesWinter\images.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\README.txt" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu10\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\ConcreteWalls\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Zamin\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\View\PostProcess\SSAO\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Flags\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu6\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\VillageBuildsWinter\images.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\BillboardWinter\library.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Esplanade_new_summer.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\WaffleFence\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\HangarT\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\IndustrialElementsWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\WaffleFence\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\FachwerkHouse1\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Serpukhov_new_summer.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\VillageHousesWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandRiseWinter\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\magma\LavaColormap.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\DesertHouses\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandscapeWinter2\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\MovingObjects\GlobalSnowMovingObject.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\PromotionWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Halloween\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\WaterClass\library.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\MapLandscape\BuildableMap\Shaders\TransparentShader.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\CityWalls\library.xml" />
+     <None Include="Assets\StreamingAssets\Data\Maps\Plateau_new_summer.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\CityTowersWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\LandTilesWinter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\SmallBridgeWinter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Exterior\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Fence\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\LandTiles\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Trees\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Deferred\Shaders\SnowOverlay.cginc" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\CityBuildsWinter\images.xml" />
+     <None Include="Assets\ClientView\GameAssets\Battle\Common\ConstResources\Shaders\ComparingTexturesShader.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\RoadBlockWinter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\GlobalSnow.cginc" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Deferred\Shaders\Tree\GlobalSnowMats.cginc" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\NullShader.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\LandRise\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IranKahgel\images.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu1\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Passage\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\Depth.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Fort\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\DepthCopy.shader" />
+     <None Include="Assets\ClientView\GameAssets\Battle\Tank\Base\Shaders\deprecated\TankColor.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\IndustrialElements\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\IndustrialBridge\library.xml" />
+     <None Include="Assets\YamlDotNet\Properties\AssemblyInfo.template" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\CityBuilds\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Deferred\Shaders\Grass &amp; Billboards\README_ONLY_FOR_DEFERRED.txt" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\GlobalSnowDistance.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_old\RoadBlock\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_new\IranKariz\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\NuBu6Winter\library.xml" />
+     <None Include="Assets\Resources\Battle\Landscape_old\Yonje\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\EraseGeometry.shader" />
+     <None Include="Assets\ClientView\UI\Common\Shaders\UIDefaultEx.shader" />
+     <None Include="Assets\ClientView\PackageAssets\LightShafts\FinalInterpolation.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\BrokenWalls\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\AssetsGrass\Shaders\TessellationExample.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\SnowParticleSurfaceShader.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Nubu5\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\chuncker\ChunkerColormap.shader" />
+     <None Include="Assets\ClientView\PackageAssets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\Hangars\library.xml" />
+     <None Include="Assets\Resources\GameResources\garage\colormap\hexagonity\noiseSimplex.cginc" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\Shaders\Compose.shader" />
+     <None Include="Assets\Resources\Battle\Landscape_new\VillageBuildsWinter\library.xml" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Common\MovingObjects\MovingObjectOverlay.shader" />
+     <None Include="Assets\ClientView\PackageAssets\GlobalSnow\Resources\Workflow_Forward\Shaders\Nature\SnowedGrass.cginc" />
+     <None Include="Assets\Resources\Battle\Landscape_new\BushWinter\library.xml" />
+ <Reference Include="UnityEngine">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GIModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsNativeModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityCurlModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VirtualTexturingModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.CoreModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GraphViewModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PackageManagerUIModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SceneTemplateModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsSamplesModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIServiceModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UnityConnectModule">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Unsafe">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/PackageCache/com.unity.burst@1.4.11/Unity.Burst.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>B:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Sysroot.Linux_x86_64">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.SysrootPackage.Editor">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>B:/dev/Unity/Examples/UTanks/UTanks-Online/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="JBooth.BetterLitShader.Scripts.csproj">
+      <Project>{dc3168b1-ecf8-60f6-59b4-bc7923c00528}</Project>
+      <Name>JBooth.BetterLitShader.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="JBooth.BetterLitShader.Editor.csproj">
+      <Project>{5cd6aa14-2ee4-13a3-c84d-15c262430f94}</Project>
+      <Name>JBooth.BetterLitShader.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
